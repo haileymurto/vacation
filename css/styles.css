@@ -1,3 +1,8 @@
 #turks, #newyork, #iceland, #staycation  {
   display: none;
 }
+
+#newyork img{
+  width: 900px;
+  height: auto;
+}

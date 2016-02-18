@@ -5,7 +5,7 @@ $(document).ready(function() {
     var climate = $("select#climate").val();
 
 
-  
+
 
     if (temperature === 'hot' && activities === 'beach' && climate === 'ocean') {
         $("#turks").show();
@@ -35,7 +35,7 @@ $(document).ready(function() {
         $("#turks").show();
       }
 
-    if (temperature === 'hot' && activities === 'nature' && climate === 'moutain') {
+    if (temperature === 'hot' && activities === 'nature' && climate === 'mountain') {
         $("#iceland").show();
       }
 
