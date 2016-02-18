@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Where sould you go on your next vacation?</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Where should you go on vacation?</h1>
+
+      <p>Answer the following questions to find out where you should go on your next vacation!</p>
+      <p>Do you prefer hot climates or cold?</p>
+      <form id="vacation">
+        <label for="Temperature"></label>
+        <select id="temperature">
+          <option value="hot">Hot</option>
+          <option value="cold">Cold</option>
+        </select>
+      <p>Which of the following best describes your perfect day?</p>
+        <label for="Activites">My perfect day is spent...</label>
+        <select id="activities">
+          <option value="beach">...laying out on the beach, drinking margaritas</option>
+          <option value="culture">...waking up early to be first in line for the art museum, followed by a tour of historical places</option>
+          <option value="city">...people watching from a busy cafe, followed by a night out at the newest, hippest spots</option>
+          <option value="nature">... hiking, surrounded by nature, without another person in sight.</option>
+        </select>
+
+        <p>What type of food makes your stomache growl?</p>
+          <label for="Activites">I'd like to sit down to a meal of...</label>
+          <select id="activities">
+            <option value="healthy">...kale, quinoa & tofu. Health comes first!</option>
+            <option value="comfort">...comfort food. Bring on the mashed potatoes and fried chicken.</option>
+            <option value="adventurous">...something new and different. I love trying new cuisines.</option>
+          </select>
+
+          <p>What type of climate do you prefer?</p>
+            <label for="Activites">When I look out the window, I want to see...</label>
+            <select id="activities">
+              <option value="beach">...the ocean!</option>
+              <option value="mountain">...waterfalls, trees, mountains All the better if they're snow-covered.</option>
+              <option value="city">...tall buildings, and more tall buildings beyond that</option>
+            </select>
+
+        <button type="submit" class="btn">Find my celebrity date</button>
+      </form>
+
+      <div id="your-celebrity">
+
+      </div>
+
+        <p>You should date<span id="match"></span></p>
+        <div id="ryan">
+          <p>You were matched with Ryan Gosling! </p>
+          <img src ="img/ryan.jpeg">
+        </div>
+        <div id="tim">
+          <p>You were matched with Tim Riggins!</p>
+          <img src ="img/tim.jpg">
+        </div>
+        <div id="carrot">
+          <p>Sorry, you were matched with Carrot Top...</p>
+          <img src ="img/carrot.jpg">
+        </div>
+        <div id="jennifer">
+          <p>You were matched with Jennifer Lawrence!</p>
+          <img src ="img/jennifer.jpg">
+        </div>
+        <div id="emmaw">
+          <p>You were matched with Emma Watson!</p>
+          <img src ="img/emmaw.jpg">
+        </div>
+        <div id="emmas">
+          <p>You were matched with Emma Stone!</p>
+          <img src ="img/emmas.jpg">
+        </div>
+
+
+      </div>
+    </div>
+  </body>
+</html>
