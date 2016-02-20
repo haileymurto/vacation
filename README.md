@@ -1,4 +1,6 @@
 Vacation Finder - February 20, 2016
+Code Review II
+Introduction to Programming (Evening) at Epicodus in Portland, OR
 
 Author: Hailey Murto
 Project: Vacation Finder
@@ -21,7 +23,7 @@ Feel free to email me at hailey.murto@gmail.com with any questions, issues, or s
 
 Technologies Used:
 
-HTML, CSS, Bootstrap, JavaScript, jQuery
+HTML, CSS, Bootstrap, JavaScript jQuery
 
 Copyright and Licence Information:
 
