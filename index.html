@@ -6,11 +6,13 @@
     <script src="js/jquery-1.12.0.js"></script>
     <script src="js/scripts.js"></script>
     <title>Where should you go on your next vacation?</title>
+     <div class="jumbotron">
+       <h2>Vacation Finder</h2>
+     </div>
   </head>
   <body>
     <div class="container">
       <h1>Where should you go on vacation?</h1>
-
       <p>Answer the following questions to find out where you should go on your next vacation!</p>
       <p>Do you prefer hot climates or cold?</p>
       <form id="vacation">
@@ -19,6 +21,7 @@
           <option value="hot">Hot</option>
           <option value="cold">Cold</option>
         </select>
+        <br>
       <p>Which of the following best describes your perfect day?</p>
         <label for="activites">My perfect day is spent...</label>
         <select id="activities">
@@ -26,30 +29,31 @@
           <option value="nightlife">...people-watching from a busy cafe, followed by a bar-hopping all-nighter.</option>
           <option value="nature">... hiking, surrounded by nature, without another person in sight.</option>
         </select>
-
+        <br>
       <p>What type of climate do you prefer?</p>
         <label for="climate">When I look out the window, I want to see...</label>
         <select id="climate">
           <option value="ocean">...the ocean!</option>
-          <option value="mountain">...waterfalls, trees, mountains All the better if they're snow-covered.</option>
+          <option value="mountain">...waterfalls, trees, mountains.</option>
           <option value="city">...tall buildings, and more tall buildings beyond that</option>
         </select>
-
+        <br>
       <p>What would you choose to eat for your last meal?</p>
-        <label for="meal">I'd want the last thing I ever ate to be...</label>
+        <label for="meal">My favorite food is...</label>
         <select id="meal">
           <option value="burrito">...a burrito.</option>
           <option value="pho">...a big bowl of pho.</option>
           <option value="thanksgiving">...Thanksgiving dinner.</option>
         </select>
-
+        <br>
       <p>What is your budget?</p>
-        <label for="budget">For my vacation, I can spend...</label>              <select id="budget">
+        <label for="budget">For my vacation, I can spend...</label>
+        <select id="budget">
           <option value="rich">... I have unlimited funds, lucky me.</option>
-          <option value="average">... I have more than enough for a plane ticket, but not enough to drink cristol on a yacht.</option>
+          <option value="average">... I have enough for a plane ticket.</option>
           <option value="poor">...nothing. My bank account is in the negative.</option>
         </select>
-
+        <br>
         <button type="submit" class="btn">Find my next vacation!</button>
       </form>
     </div>
@@ -72,11 +76,6 @@
         <h4>Iceland!</h4>
         <img src ="img/iceland.jpg">
       </div>
-
-      <div id="staycation">
-        <p>Your house! You can't afford to go anywhere, but you can always fill up your bathtub, drink a margarita, and pretend your at the beach. Extra points for ambient crashing-wave sounds.</p>
-      </div>
-
 
     </div>
   </body>
